@@ -9,7 +9,6 @@ int main()
     bool lichy = false;
     cout << "Zadavej znaky zakoncena (*): " << endl;
     cin >> x;
-
     while (x != '*' && !lichy)
     {
         cout << "Znak co ho predchazi " << (char)(x - 1) << " jeho ASCII kode je " << (int)(x - 1) << endl;
